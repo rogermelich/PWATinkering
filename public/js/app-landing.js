@@ -2608,11 +2608,15 @@ window.Vue = __webpack_require__(7);
 
 /* eslint-disable no-undef, no-unused-vars */
 var app = new Vue({
-  el: '#app'
+    el: '#app'
 });
 
-if ('serviceworker' in navigator) {
-  navigator.serviceWorker.register('service-worker.js');
+if ('serviceWorker' in navigator) {
+    navigator.serviceWorker.register('js/service-worker.js').then(function () {
+        console.log('Service worker registered OK!');
+    }).catch(function (err) {
+        console.log('Service worker registering: ' + err);
+    });
 }
 
 /***/ }),
