@@ -1,7 +1,6 @@
 {
   "short_name": "PWA",
   "name": "PWATinering Roger",
-  "orientation": "portrait",
   "start_url": "/",
   "display": "fullscreen",
   "theme_color": "#0B6138",
