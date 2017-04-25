@@ -1,11 +1,12 @@
 {
   "short_name": "PWA",
   "name": "PWATinering Roger",
-  "display": "fullscreen",
   "orientation": "portrait",
-  "start_url": "./?utm_source=web_app_manifest",
+  "start_url": "/",
+  "display": "fullscreen",
   "theme_color": "#0B6138",
-  "background_color": "#FAFAFA",
+  "background_color": "#0B6138",
+  "Scope": "/",
   "icons": [
     {
       "src": "img/icon.png",
