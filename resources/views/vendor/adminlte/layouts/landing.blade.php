@@ -33,6 +33,7 @@ Landing page based on Pratt: http://blacktie.co/demo/pratt/
     <link href='https://fonts.googleapis.com/css?family=Raleway:400,300,700' rel='stylesheet' type='text/css'>
 
     <link rel="manifest" href="/manifest.json">
+    <meta name="theme_color"  content="#0B6138">
 
     <link rel="icon" sizes="192x192" href="{{ asset('/img/icon.png') }}">
 
